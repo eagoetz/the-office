@@ -10,6 +10,10 @@ class Employee:
         self.employee_id = uuid.uuid4()
 
     def update_contact_info(self, name: str) -> str:
+        """Updating contact information
+
+        """
+
         past_name = self.name
         self.name = name
         return past_name
