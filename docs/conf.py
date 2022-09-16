@@ -21,6 +21,7 @@ author = 'Evan Goetz'
 extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.napoleon",
+    "sphinx.ext.githubpages",
 ]
 
 templates_path = ['_templates']
